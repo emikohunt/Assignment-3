@@ -79,14 +79,6 @@ p{
 	color: #033048;
 }
 
-article p:first-child:first-letter{
-	float: left; 
-	font-size: 80px;
-	font-weight: 300;
-	padding-right: 5px;
-	line-height: 80px;
-}
-
 .readmore {
 	font-family: "Open Sans", sans-serif;
 	font-size: 24px;
@@ -133,13 +125,14 @@ header {
 	padding-bottom: 10px;
 }
 
-.initialcapital{
+article p:first-letter {
 	float: left; 
 	font-size: 80px;
 	font-weight: 300;
 	padding-right: 5px;
 	line-height: 80px;
 }
+
 
 .topnav {
 	font-size: 24px;
